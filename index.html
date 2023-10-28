@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contributors Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color:black;
+        }
+
+        .container{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgb(0, 0, 0);
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color:white;
+        }
+        li{
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+            font-size: medium;
+            background-color: orange;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color:black;
+
+        }
+
+        h1 {
+            color: orange;
+        }
+        
+        ul#contributors {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul#contributors li::before {
+            content: "Add your name here"; /* This comment indicates where contributors can add their names */
+            color: #aaa;
+        }
+        li{
+            margin-bottom:5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contributors</h1>
+        <hr>
+        <p>Join us by adding your name to the list of contributors:</p>
+
+        <ol id="contributors">
+            <!-- Add your name below this line -->
+            <li>Ishwar Raut</li>
+            <li>Daivik Karbhari</li>
+            <li>Elizabeth Pawar</li>
+            <li>Pranav Gavande</li>
+        </ol>
+    </div>
+</body>
+</html>
